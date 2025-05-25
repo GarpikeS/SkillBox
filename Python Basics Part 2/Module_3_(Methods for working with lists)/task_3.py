@@ -13,10 +13,5 @@
 #Изначальный список: [1, 4, –3, 0, 10]
 #Сдвинутый список: [–3, 0, 10, 1, 4]
 
-numbers = [1,2,3,4,5]
-shift_numbers = []
-shift = int(input('Сдвиг: '))
-for i_numbers in range(len(numbers)):
-    print(numbers[shift:])
-    print(shift_numbers)
-
+# Ввод данных
+# Ввод данных
