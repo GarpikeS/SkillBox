@@ -26,3 +26,32 @@
 #Название 2-й песни: Enjoy the Silence
 #Название 3-й песни: Clean
 #Общее время звучания песен — 14,93 минуты
+
+violator_songs = [
+    ['World in My Eyes', 4.86],
+    ['Sweetest Perfection', 4.43],
+    ['Personal Jesus', 4.56],
+    ['Halo', 4.9],
+    ['Waiting for the Night', 6.07],
+    ['Enjoy the Silence', 4.20],
+    ['Policy of Truth', 4.76],
+    ['Blue Dress', 4.29],
+    ['Clean', 5.83]
+]
+
+n = int(input("Сколько песен выбрать? "))
+
+total_time = 0.0
+
+for i in range(n):
+    song_name = input(f"Название {i + 1}-й песни: ")
+    found = False
+    for song in violator_songs:
+        if song[0] == song_name:
+            total_time += song[1]
+            found = True
+            break
+    if not found:
+        print(f"Песня '{song_name}' не найдена в списке.")
+
+print(f"Общее время звучания песен — {total_time:.2f} минуты")
