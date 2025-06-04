@@ -17,4 +17,3 @@
 #    counter.visits += 1
 
 #counter.visits = 0
-
