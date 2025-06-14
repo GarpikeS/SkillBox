@@ -20,6 +20,3 @@
 #counter.visits = 0
 
 
-
-
-
