@@ -59,3 +59,4 @@
 #Полный список интересов всех студентов: {'running', 'computer games', 'math', 'languages', 'biology, swimming', 'health food'}
 #
 #Общая длина всех фамилий студентов: 20
+
