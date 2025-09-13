@@ -50,3 +50,4 @@ result = max_people_with_skates(skates, people)
 print("Наибольшее количество людей, которые могут взять ролики:", result)
 
 
+
