@@ -24,4 +24,3 @@ print(video_card)
 
 
 
-
