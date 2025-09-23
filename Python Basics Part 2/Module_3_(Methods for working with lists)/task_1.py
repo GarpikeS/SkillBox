@@ -21,4 +21,3 @@ for i_video_card in video_card:
   if i_video_card == max_card:
       video_card.remove(i_video_card)
 print(video_card)
-
