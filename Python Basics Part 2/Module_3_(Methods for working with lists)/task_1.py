@@ -23,4 +23,3 @@ for i_video_card in video_card:
 print(video_card)
 
 
-
