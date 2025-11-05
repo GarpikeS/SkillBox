@@ -24,4 +24,3 @@ print("Изначальный список:", numbers)
 insertion_sort(numbers)
 print("Отсортированный список:", numbers)
 
-
