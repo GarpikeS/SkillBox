@@ -23,4 +23,3 @@ numbers = [1, 4, -3, 0, 10]
 print("Изначальный список:", numbers)
 insertion_sort(numbers)
 print("Отсортированный список:", numbers)
-
